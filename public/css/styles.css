@@ -1,0 +1,26 @@
+body{
+    height: 100vh;
+    max-width: 370px; /* ancho fijo*/
+    margin: 0;
+    padding: 0;
+    background-image: url('/img/fondo2.jpg');
+    background-size: cover; /* Ajusta la imagen para que se contenga dentro del contenedor */
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    justify-content: center;
+}
+
+.content{
+text-align: center;
+justify-content: center;
+}
+
+.footer .btn-footer{
+    background-color: coral;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
